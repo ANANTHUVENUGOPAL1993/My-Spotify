@@ -84,7 +84,7 @@ nav ul{
 .songItem{
     height: 100px;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 222, 148);
     width: 100%;
     color: rgb(0, 0, 0);
     margin: 30px;
@@ -127,7 +127,12 @@ nav ul{
 
 .mname{
     font-family: sans-serif;
+    font-weight: bolder;
 
+}
+
+.songList h2{
+    color: rgb(112, 161, 88);
 }
 
 
@@ -136,8 +141,8 @@ nav ul{
     .songItem{
         height: 70px;
         display: flex;
-        background-color: rgb(255, 255, 255);
-        width: 90%;
+        background-color: rgb(235, 222, 148);
+        width: 85%;
         color: rgb(0, 0, 0);
         margin: 15px;
         align-items: center;
@@ -149,6 +154,7 @@ nav ul{
 
     .songItem span{
         font-size: small;
+
     }
 
 
@@ -162,7 +168,12 @@ nav ul{
         display: none;
     }
 
-
+    .mname{
+        font-family: sans-serif;
+        font-weight: bolder;
+    
+    }
+    
 
     
   }
